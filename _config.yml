@@ -1,6 +1,6 @@
 ---
-title: Your awesome title
-timezone: UTC
+title: Darwin Free University
+timezone: Australia/Darwin
 collections:
   posts:
     title: Posts
@@ -8,15 +8,13 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: your-email@example.com
-description: Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
-baseurl: ''
-url: ''
+email: dfutechnical@gmail.com
+description: Website for Darwin Free University, a community initiative.
+baseurl: 
+url: 
 twitter_username: jekyllrb
 github_username: jekyll
 markdown: kramdown
-theme: minima
+theme: minimal
 plugins:
 - jekyll-feed
