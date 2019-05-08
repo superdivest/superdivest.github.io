@@ -1,5 +1,5 @@
 ---
-title: Darwin Free University (Test Edit)
+title: Climate Action Darwin
 timezone: Australia/Darwin
 collections:
   posts:
@@ -9,7 +9,8 @@ collections:
     title: Uploads
     output: true
 email: dfutechnical@gmail.com
-description: Website for Darwin Free University, a community initiative.
+description: Climate Action Darwin is a citizen action group based in Darwin Australia
+  and focused on reducing the impacts of catastrophic human-made global warming.
 baseurl: 
 url: 
 twitter_username: jekyllrb
