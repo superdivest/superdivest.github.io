@@ -19,7 +19,5 @@ markdown: kramdown
 theme: jekyll-theme-minimal
 plugins:
 - jekyll-feed
-
-
 sass:
   sass_dir: assets/css

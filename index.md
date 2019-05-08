@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <!-- Masthead -->
 <header class="masthead text-white text-center">
   <div class="overlay"></div>
