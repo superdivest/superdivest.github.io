@@ -2,7 +2,10 @@
 ---
 
 @import 'bootstrap/bootstrap';
-@import 'landing-page';
+@import 'stolen-theme';
 
-//@import "jekyll-theme-minimal";
+.cad {
+  @import 'components/navbar';
+  @import 'components/masthead';
+}
 
