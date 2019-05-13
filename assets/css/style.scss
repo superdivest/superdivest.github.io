@@ -5,6 +5,8 @@
 @import 'stolen-theme';
 
 .cad {
+  @import 'components/call-to-action';
+  @import 'components/contact-form';
   @import 'components/navbar';
   @import 'components/masthead';
 }
