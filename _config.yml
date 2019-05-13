@@ -22,5 +22,4 @@ plugins:
 sass:
   sass_dir: assets/css
 mailchimp-list: http://eepurl.com/gq9oOv
-
 simple-form: https://simple-form.com/climateactiondarwin@gmail.com
