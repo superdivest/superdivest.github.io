@@ -10,6 +10,8 @@ generations to prevent and reverse climate change.
 
 We do this at a local level by supporting Darwin residents to take action, advocating for a transition to a zero carbon economy, and influencing decision-makers.
 
-Like our Page: <a href="{{site.cad-facebook}}"><i class="fab fa-facebook fa-2x"></i>&nbsp;Climate Action Darwin</a>
+Like our Page: 
+
+<a href="{{site.cad-facebook}}"><i class="fab fa-facebook fa-2x"></i>&nbsp;Climate Action Darwin</a>
 
 Come say hello at our meetings and events!
