@@ -12,6 +12,6 @@ We do this at a local level by supporting Darwin residents to take action, advoc
 
 Like our Page: 
 
-<a href="{{site.cad-facebook}}"><i class="fab fa-facebook fa-2x"></i>&nbsp;Climate Action Darwin</a>
+<a href="{{site.cad-facebook}}"><i class="fab fa-facebook fa-2x"></i>&nbsp;<large>Climate Action Darwin</large></a>
 
 Come say hello at our meetings and events!
