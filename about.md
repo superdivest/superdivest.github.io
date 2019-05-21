@@ -1,18 +1,15 @@
 ---
 title: About
 permalink: "/about/"
-layout: default
+layout: content-page
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Established in 2009, Climate Action Darwin is a 600 strong grassroots
+community group. We believe it is our moral obligation to current and future
+generations to prevent and reverse climate change. 
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+We do this at a local level by supporting Darwin residents to take action, advocating for a transition to a zero carbon economy, and influencing decision-makers.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Like our Page: <a href="{{site.cad-facebook}}"><i class="fab fa-facebook fa-2x"></i>&nbsp;Climate Action Darwin</a>
 
-
-[jekyll-organization]: https://github.com/jekyll
+Come say hello at our meetings and events!
