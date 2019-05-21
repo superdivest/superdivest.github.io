@@ -1,0 +1,15 @@
+$cad-dark-blue: rgb(9,37,131); // midnightblue
+$cad-mid-blue: rgb(61,105,167); // steelblue
+$cad-green: rgb(82,140,50); // olivedrab
+$cad-orange: rgb(198,130,62); // peru
+$cad-red: rgb(198,57,35); // firebrick
+$cad-purple: rgb(79,38,84); // darkslategray
+
+$primary: $cad-mid-blue; // burgundy
+$secondary: $cad-orange; // #6c757d; // standard Bootstrap 4
+$success: $cad-green;
+$info: $cad-green;
+$warning: $cad-orange;
+$danger: $cad-red;
+
+$font-family-sans-serif: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;

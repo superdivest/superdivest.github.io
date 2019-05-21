@@ -1,0 +1,80 @@
+---
+title: Contact
+permalink: "/contact/"
+layout: default
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col-xl-8 offset-xl-2 py-5">
+      <h1 class="mb-4">Contact us</h1>
+      <p class="lead">Whatever's on your mind, we want to hear from you as we build our campaign.</p>
+      <p class="lead">Write to us here and we'll respond as soon as we can.</p>
+      <form name="climate-action-darwin-contact"
+            class="cad-contact-form mt-4"
+            method="POST"
+            action="{{site.simple-form}}" role="form">
+        <div class="messages"></div>
+        <div class="controls">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="form_name">Name *</label>
+                <input id="form_name"
+                       type="text"
+                       name="name"
+                       class="form-control"
+                       placeholder="Enter your name …"
+                       required="required"
+                       data-error="Your name is required.">
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="form_email">Email *</label>
+                <input id="form_email"
+                       type="email"
+                       name="replyTo"
+                       class="form-control"
+                       placeholder="Email …"
+                       required="required"
+                       data-error="A valid email address is required.">
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="form-group">
+                <label for="form_message">Message *</label>
+                <textarea id="form_message"
+                          name="Message"
+                          class="form-control"
+                          placeholder="I think we should …"
+                          rows="6"
+                          required="required"
+                          data-error="Please, leave us a message."></textarea>
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+            <input class="cad-contact-redirect" type="hidden" name="redirectURL"
+                   value="{{site.cad-homepage}}/thank-you/" />
+            <input type="hidden" name="subject" value="Climate Action Darwin: contact form submitted" />
+            <div class="col-md-12">
+              <input type="submit" class="btn btn-success btn-send float-right cad-contact-form-button" value="Send us your message">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <p class="text-muted">
+                <strong>*</strong> These fields are required.
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <!-- /.8 -->
+  </div>
+  <!-- /.row-->
+</div>

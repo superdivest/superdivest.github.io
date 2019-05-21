@@ -1,0 +1,41 @@
+<header class="cad-masthead text-white text-center">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 offset-lg-4
+                  col-md-6 offset-md-3
+                  col-sm-6 offset-sm-3
+                  col-xs-6 offset-xs-3">
+        <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+          <img class="img-fluid rounded-circle mb-3" src="assets/img/climate-action-darwin-logo.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-9 mx-auto">
+        <h1 class="mb-5">Sign up to take action</h1>
+      </div>
+      <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+        <form name="climate-action-darwin-signup"
+              method="POST"
+              action="{{site.simple-form}}">
+          <div class="form-row">
+            <div class="col-12 col-md-9 mb-2 mb-md-0">
+              <input name="replyTo"
+                     autocomplete="on"
+                     type="email"
+                     class="form-control form-control-lg required email"
+                     placeholder="Enter your email …">
+              <input class="cad-signup-redirect" type="hidden"
+                     name="redirectURL" value="{{site.cad-homepage}}/thank-you/">
+              <input type="hidden" name="subject" value="Climate Action Darwin: signup form submitted">
+            </div>
+            <div class="col-12 col-md-3">
+              <input type="submit" class="cad-contact-form-button btn btn-block btn-lg btn-primary" value="Sign up!">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</header>
