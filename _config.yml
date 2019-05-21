@@ -11,10 +11,10 @@ collections:
 email: climateactiondarwin@gmail.com
 description: Climate Action Darwin is a citizen action group based in Darwin Australia
   and focused on reducing the impacts of catastrophic human-made global warming.
-baseurl: 
 url: https://climateactiondarwin.org.au
-twitter_username: jekyllrb
-github_username: jekyll
+twitter_username: climateactiondarwin
+github_username: climateactiondarwin
+repository: climateactiondarwin/climateactiondarwin.github.io
 markdown: kramdown
 theme: jekyll-theme-minimal
 plugins:
