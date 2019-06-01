@@ -9,8 +9,7 @@ layout: content-page
 ---
 
 <div style="margin-top: 50px;">
-  <img style="width: 40%; float: right;" src="/assets/img/cad-brochure-splash.png" />
-  <div style="width: 60%;">
+  <div class="col-md-6 col-sm-12">
     <p>Climate Action Darwin has published a helpful brochure explaining both what we face here in the Top End with the arrival of climate change, and what you can do to take action against it.</p>
     <p>You can download the brochure here: </p>
     <p>
@@ -18,5 +17,8 @@ layout: content-page
         <i class="fab fa-facebook fa-5x fa-fw"></i>&nbsp;<h4>Download it here</h4>
       </a>
     </p>
+  </div>
+  <div class="col-md-6 col-sm-12">
+    <img src="/assets/img/cad-brochure-splash.png" />
   </div>
 </div>
