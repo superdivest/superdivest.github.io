@@ -5,6 +5,7 @@ lead: What does Climate Action Darwin do?
 layout: content-page
 ---
 
+
 We influence decision-makers to adopt climate-friendly policies.
 
 We support Darwin residents to take climate action, and reduce their own climate impact.
@@ -19,3 +20,4 @@ We support other local and active groups working for a safe climate:
 * [Climate 4 Change](https://www.climateforchange.org.au/about)
 * [Protect Country Alliance](https://www.protectcountrynt.org.au/)
 * [School Strike for Climate](https://www.facebook.com/StrikeClimate/)
+
