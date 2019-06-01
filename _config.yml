@@ -1,10 +1,5 @@
 ---
 title: Climate Action Darwin
-description: "Established in 2009, Climate Action Darwin is a 600 strong grassroots community group focused
-on preventing and reversing climate change."
-facebook:
-  publisher: https://www.facebook.com/climateactiondarwin/
-logo: /assets/img/climate-action-darwin-logo.png
 timezone: Australia/Darwin
 collections:
   posts:
@@ -13,9 +8,12 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: climateactiondarwin@gmail.com
 description: Climate Action Darwin is a citizen action group based in Darwin Australia
   and focused on reducing the impacts of catastrophic human-made global warming.
+facebook:
+  publisher: https://www.facebook.com/climateactiondarwin/
+logo: "/assets/img/climate-action-darwin-logo.png"
+email: climateactiondarwin@gmail.com
 url: https://climateactiondarwin.org.au
 twitter_username: climateactiondarwin
 github_username: climateactiondarwin
@@ -34,4 +32,3 @@ mailchimp-list: http://eepurl.com/gq9oOv
 simple-form: https://simple-form.com/climateactiondarwin@gmail.com
 cad-facebook: https://www.facebook.com/climateactiondarwin
 cad-homepage: https://climateactiondarwin.org.au
-
