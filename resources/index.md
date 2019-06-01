@@ -8,4 +8,4 @@ lead: We'll be publishing a set of resources that will help you and the people y
 layout: content-page
 ---
 
-<img style="float: right;" src="assets/img/cad-brochure-splash.png" />
+<img style="float: right;" src="/assets/img/cad-brochure-splash.png" />
