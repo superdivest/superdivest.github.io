@@ -21,6 +21,7 @@ kramdown:
 theme: jekyll-theme-minimal
 plugins:
 - jekyll-feed
+- jekyll-redirect-from
 sass:
   sass_dir: assets/css
 mailchimp-list: http://eepurl.com/gq9oOv
