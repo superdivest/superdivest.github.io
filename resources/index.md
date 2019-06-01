@@ -8,14 +8,14 @@ lead: We'll be publishing a set of resources that will help you and the people y
 layout: content-page
 ---
 
-<div markdown="block" style="margin-top: 50px;">
+<div style="margin-top: 50px;">
   <img style="width: 40%; float: right;" src="/assets/img/cad-brochure-splash.png" />
   <div style="width: 60%;">
     <p>Climate Action Darwin has published a helpful brochure explaining both what we face here in the Top End with the arrival of climate change, and what you can do to take action against it.</p>
     <p>You can download the brochure here: </p>
     <p>
       <a target="_blank" href="/assets/docs/CAD_Brochure_Online.pdf">
-        <i class="fab fa-facebook fa-5x fa-fw"></i>&nbsp;<h3>Download it here</h3>
+        <i class="fab fa-facebook fa-5x fa-fw"></i>&nbsp;<h4>Download it here</h4>
       </a>
     </p>
   </div>
