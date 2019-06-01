@@ -15,7 +15,7 @@ layout: content-page
     <p>You can download the brochure here: </p>
     <p>
       <a target="_blank" href="/assets/docs/CAD_Brochure_Online.pdf">
-        <i class="fab fa-facebook fa-5x fa-fw"></i>&nbsp;<h3>Download it here</h3>
+        <i class="fab fa-facebook fa-5x fa-fw"></i>&nbsp;<h4>Download it here</h4>
       </a>
     </p>
   </div>
