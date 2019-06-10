@@ -7,6 +7,7 @@ lead: We'll be publishing a set of resources that will help you and the people y
   know take action on the climate crisis. Watch for changes!
 layout: content-page
 ---
+
 Climate Action Darwin has published a brochure explaining how Darwin can play a part in mitigating and preventing climate change.
 
 <img style="width: 50%; float: right; margin-left: 10px;" src="/assets/img/cad-brochure-splash.png" />
