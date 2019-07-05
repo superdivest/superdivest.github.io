@@ -30,6 +30,7 @@ sass:
   sass_dir: assets/css
 mailchimp-list: http://eepurl.com/bimoPf
 mailchimp-form: https://ecnt.us2.list-manage.com/subscribe/post
+mailchimp-signup: https://ecnt.us2.list-manage.com/subscribe/post
 simple-form: https://simple-form.com/climateactiondarwin@gmail.com
 cad-facebook: https://www.facebook.com/climateactiondarwin
 cad-homepage: https://climateactiondarwin.org.au
