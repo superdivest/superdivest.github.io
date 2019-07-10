@@ -1,4 +1,4 @@
-<header class="cad-masthead text-white text-center">
+<header class="cad-masthead text-white">
   <div class="overlay"></div>
   <div class="container">
     <div class="row">
@@ -12,29 +12,13 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-xl-9 mx-auto">
-        <h1 class="mb-5">Sign up to take action</h1>
+      <div class="col-12 col-md-6 mx-auto mb-5">
+        <h1 class="text-center">Sign up to take action</h1>
       </div>
-      <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-        <form name="climate-action-darwin-signup"
-              method="POST"
-              action="{{site.simple-form}}">
-          <div class="form-row">
-            <div class="col-12 col-md-9 mb-2 mb-md-0">
-              <input name="replyTo"
-                     autocomplete="on"
-                     type="email"
-                     class="form-control form-control-lg required email"
-                     placeholder="Enter your email …">
-              <input class="cad-signup-redirect" type="hidden"
-                     name="redirectURL" value="{{site.cad-homepage}}/thank-you/">
-              <input type="hidden" name="subject" value="Climate Action Darwin: signup form submitted">
-            </div>
-            <div class="col-12 col-md-3">
-              <input type="submit" class="cad-contact-form-button btn btn-block btn-lg btn-primary" value="Sign up!">
-            </div>
-          </div>
-        </form>
+    </div>
+    <div class="row">
+      <div class="col-6 col-md-4 mx-auto">
+        <a href="/signup/" class="cad-contact-form-button btn btn-block btn-lg btn-primary">Sign up!</a>
       </div>
     </div>
   </div>
