@@ -16,8 +16,10 @@ We inform and educate audiences on NT climate change impacts and solutions—inc
 
 We support other local and active groups working for a safe climate:
 
+* [Environment Centre NT](https://ecnt.org.au/)
 * [CoolMob](http://coolmob.org/)
-* [Climate 4 Change](https://www.climateforchange.org.au/about)
+* [Seed Indigenous Youth Climate Network](https://www.seedmob.org.au/)
+* [Climate for Change](https://www.climateforchange.org.au/about)
 * [Protect Country Alliance](https://www.protectcountrynt.org.au/)
 * [School Strike for Climate](https://www.facebook.com/StrikeClimate/)
 
