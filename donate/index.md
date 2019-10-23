@@ -6,7 +6,15 @@ lead: Climate Action Darwin relies on community support and small grants to carr
 layout: content-page
 ---
 
-<img style="width: 50%; float: right; margin-left: 10px;" src="/assets/img/givenow-button-rectv-dark.png" />
+<a href="https://www.givenow.com.au/climateactiondarwin" target="_blank">
+  <img style="width: 20%; float: right; margin-left: 10px;" 
+       src="/assets/img/givenow-button-square-dark.png" />
+</a>
 
-We're building a climate movement in Darwin and to do that, we need your support. Please follow the link below to contribute to Climate Action Darwin. Thanks!
+<h4>
+    <span>Click to donate to us on GiveNow</span> 
+&nbsp;<i class="fas fa-arrow-right"></i>
+</h4>
+
+We're building a climate movement in Darwin and to do that, we need your support. Please use our donation button to contribute to Climate Action Darwin via our crowd-funding platform, GiveNow. Thanks!
 
