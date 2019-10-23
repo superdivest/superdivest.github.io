@@ -8,6 +8,12 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    is_post: true
 description: Climate Action Darwin is a citizen action group based in Darwin Australia
   and focused on reducing the impacts of catastrophic human-made global warming.
 facebook:
@@ -34,10 +40,3 @@ mailchimp-signup: https://ecnt.us2.list-manage.com/subscribe/post
 simple-form: https://simple-form.com/climateactiondarwin@gmail.com
 cad-facebook: https://www.facebook.com/climateactiondarwin
 cad-homepage: https://climateactiondarwin.org.au
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts"
-    values:
-      is_post: true
