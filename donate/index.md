@@ -13,7 +13,7 @@ layout: content-page
 
 <h4>
   <span style="display:block;">
-    <i class="fas fa-download fa-2x fa-fw"></i>&nbsp;<span style="display: block;">Download our<br>brochure here</span>
+    <i class="fas fa-right-arrow fa-2x fa-fw"></i>&nbsp;<span style="display: block;">Click to donate to us on GiveNow</span>
   </span>
 </h4>
 
