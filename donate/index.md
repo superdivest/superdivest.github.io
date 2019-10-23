@@ -11,5 +11,11 @@ layout: content-page
        src="/assets/img/givenow-button-rectv-dark.png" />
 </a>
 
-We're building a climate movement in Darwin and to do that, we need your support. Please follow the link below to contribute to Climate Action Darwin. Thanks!
+<h4>
+  <span style="display:block;">
+    <i class="fas fa-download fa-2x fa-fw"></i>&nbsp;<span style="display: block;">Download our<br>brochure here</span>
+  </span>
+</h4>
+
+We're building a climate movement in Darwin and to do that, we need your support. Please use our donation button to contribute to Climate Action Darwin via our crowd-funding platform, GiveNow. Thanks!
 
