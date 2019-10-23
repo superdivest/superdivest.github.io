@@ -12,7 +12,7 @@ layout: content-page
 </a>
 
 <h4>
-    <span>Click to donate to us on GiveNow</span>
+    <span>Click to donate to us on GiveNow</span> 
 &nbsp;<i class="fas fa-arrow-right fa-2x fa-fw"></i>
 </h4>
 
