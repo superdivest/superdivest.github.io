@@ -8,7 +8,7 @@ layout: content-page
 
 <a href="https://www.givenow.com.au/climateactiondarwin" target="_blank">
   <img style="width: 20%; float: right; margin-left: 10px;" 
-       src="/assets/img/givenow-button-rectv-dark.png" />
+       src="/assets/img/givenow-button-square-dark.png" />
 </a>
 
 <h4>
