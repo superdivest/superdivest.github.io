@@ -12,9 +12,8 @@ layout: content-page
 </a>
 
 <h4>
-  <span style="display:block;">
-    <i class="fas fa-right-arrow fa-2x fa-fw"></i>&nbsp;<span style="display: block;">Click to donate to us on GiveNow</span>
-  </span>
+    <span style="display: block;">Click to donate to us on GiveNow</span>
+&nbsp;<i class="fas fa-arrow-right fa-2x fa-fw"></i>
 </h4>
 
 We're building a climate movement in Darwin and to do that, we need your support. Please use our donation button to contribute to Climate Action Darwin via our crowd-funding platform, GiveNow. Thanks!
