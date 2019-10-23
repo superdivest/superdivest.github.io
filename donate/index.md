@@ -5,3 +5,4 @@ lead: Climate Action Darwin relies on community support and small grants to carr
   out its important work.
 ---
 
+We're building a climate movement in Darwin and to do that, we need your support. Please follow the link below to contribute to Climate Action Darwin.
