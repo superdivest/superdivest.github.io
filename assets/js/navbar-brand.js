@@ -1,5 +1,5 @@
 
-$(".collapse").on("hide.bs.collapse", function() {
+$(".collapse").on("hidden.bs.collapse", function() {
     $("a.navbar-brand").removeClass("cad-nav-menu-open");
 });
 
