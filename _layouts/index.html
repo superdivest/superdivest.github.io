@@ -2,41 +2,46 @@
 layout: default
 ---
 
-<div class="content">
-  {% include pagination-newer.html %}
+<div class="container cad-content-container">
+  <div class="row">
+    <div class="col-xl-8 offset-xl-2 py-5">
+      {% include pagination-newer.html %}
 
-  {{ content }}
+      {{ content }}
 
-  {% for post in paginator.posts %}
-  <article class="post-body">
-    <h2 class="post-title">
-      <a href="{{ post.url | relative_url }}">
-        {{ post.title }}
-      </a>
-    </h2>
-    {% include post-meta.html post=post %}
+      {{ paginator.posts }}
+      {% for post in paginator.posts %}
+      <article class="post-body">
+        <h2 class="post-title">
+          <a href="{{ post.url | relative_url }}">
+            {{ post.title }}
+          </a>
+        </h2>
+        {% include post-meta.html post=post %}
 
-    {% if post.excerpt %}
-      {{ post.excerpt }}
-    {% else %}
-      {{ post.content }}
-    {% endif %}
+        {% if post.excerpt %}
+        {{ post.excerpt }}
+        {% else %}
+        {{ post.content }}
+        {% endif %}
 
-    {% if post.excerpt %}
-      {% comment %}Excerpt may be equal to content. Check.{% endcomment %}
-      {% capture content_words %}
+        {% if post.excerpt %}
+        {% comment %}Excerpt may be equal to content. Check.{% endcomment %}
+        {% capture content_words %}
         {{ post.content | number_of_words }}
-      {% endcapture %}
-      {% capture excerpt_words %}
+        {% endcapture %}
+        {% capture excerpt_words %}
         {{ post.excerpt | number_of_words }}
-      {% endcapture %}
+        {% endcapture %}
 
-      {% if content_words != excerpt_words %}
+        {% if content_words != excerpt_words %}
         <a href="{{ post.url | relative_url }}">More &hellip;</a>
-      {% endif %}
-    {% endif %}
-  </article>
-  {% endfor %}
+        {% endif %}
+        {% endif %}
+      </article>
+      {% endfor %}
 
-  {% include pagination-older.html %}
+      {% include pagination-older.html %}
+    </div>
+  </div>
 </div>
