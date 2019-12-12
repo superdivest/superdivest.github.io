@@ -28,7 +28,7 @@ The Page Editor also allows you to edit **Page Metadata** and change important o
 
 Finally, the Page Editor has a "what you see is what you get" mode which can be accessed using the *Visual (beta)* option at the top right of the editor. It's useful to flip between the Markdown and Visual modes to see how you're going when you're editing—you'll be able to see images and other media, for example.
 
-[wysiwyg-view.PNG](/uploads/wysiwyg-view.PNG)
+![wysiwyg-view.PNG](/uploads/wysiwyg-view.PNG)
 
 #### Setting the "content-page" Layout
 
@@ -42,7 +42,7 @@ Once you have made changes to the Page, the Save button is enabled. Ensure the *
 
 Click **Publish changes** to publish the whole site‚ including the Page you've just saved.
 
-[publish-button.PNG](/uploads/publish-button.PNG)
+![publish-button.PNG](/uploads/publish-button.PNG)
 
 The next time the site is published, your Page changes will become available online. It's a good idea to double check that everything turned out the way you wanted before moving on.
 
