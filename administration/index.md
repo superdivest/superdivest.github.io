@@ -1,6 +1,7 @@
 ---
 title: Administration
 date: 2019-12-12 22:15:00 +09:30
+layout: content-page
 ---
 
 Follow the links below for a visual walk-through of how to administer this website.
