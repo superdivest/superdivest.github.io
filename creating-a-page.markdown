@@ -5,6 +5,7 @@ layout: content-page
 ---
 
 [Back to the site user manual](/administration/)
+
 [Previous: the Siteleaf interface](/the-siteleaf-interface/)
 
 [Next: creating a Post](/creating-a-post/)
