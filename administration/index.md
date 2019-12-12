@@ -19,5 +19,3 @@ Follow the links below for a visual walk-through of how to administer this websi
 6. [Creating a Gallery Post](/creating-a-gallery-post/)
 
 7. [Editing Pages and Posts](/editing-pages-and-posts/)
-
-8. [Editing on GitHub](/editing-on-github/)
