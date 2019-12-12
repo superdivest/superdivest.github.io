@@ -5,7 +5,6 @@ lead: What does Climate Action Darwin do?
 layout: content-page
 ---
 
-
 We influence decision-makers to adopt climate-friendly policies.
 
 We support Darwin residents to take climate action, and reduce their own climate impact.

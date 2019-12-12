@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<div class="container cad-content-container">
+  <div class="row">
+    <div class="col-xl-8 offset-xl-2 py-5">
+      {% include pagination-newer.html %}
+      {% for post in paginator.posts %}
+      <article class="post-body">
+        <small>{{ post.date | date: "%-d %B %Y" }}</small>
+        <h1 class="mb-4">
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          {% include share-bar.html %}
+        </h1>
+        <div class="cad-byline-wrapper">
+          <p class="mr-auto">by {{ page.author | default: site.author }}</p>
+        </div>
+        {% if post.excerpt %}
+        {{ post.excerpt }}
+        {% else %}
+        {{ post.content }}
+        {% endif %}
+
+        {% if post.excerpt %}
+        {% comment %}Excerpt may be equal to content. Check.{% endcomment %}
+        {% capture content_words %}
+        {{ post.content | number_of_words }}
+        {% endcapture %}
+        {% capture excerpt_words %}
+        {{ post.excerpt | number_of_words }}
+        {% endcapture %}
+
+        {% if content_words != excerpt_words %}
+        <a href="{{ post.url | relative_url }}">More &hellip;</a>
+        {% endif %}
+        {% endif %}
+      </article>
+      <hr>
+      {% endfor %}
+
+      {% include pagination-older.html %}
+    </div>
+  </div>
+</div>
