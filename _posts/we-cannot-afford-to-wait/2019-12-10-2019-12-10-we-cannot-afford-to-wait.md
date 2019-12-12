@@ -12,4 +12,4 @@ Consider our greenhouse gas projections on the graph: Australia is still not on 
 
 The Northern Territory is already cooking: we cannot afford to wait for the substantial climate action we need. Yesterday Darwin broke their December max temperature record at 37.1C, and last Saturday, the Victoria River Downs suffered under a whopping 44.7C: their hottest December day since records began in 1965.
 
-![Warming Trend](/images/we-cannot-afford-to-wait/warming-trend.png)
+![warming-trend.png](/uploads/warming-trend.png)
