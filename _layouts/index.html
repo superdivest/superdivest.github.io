@@ -6,18 +6,13 @@ layout: default
   <div class="row">
     <div class="col-xl-8 offset-xl-2 py-5">
       {% include pagination-newer.html %}
-
-      {{ content }}
-
-      {{ paginator.posts }}
       {% for post in paginator.posts %}
       <article class="post-body">
-        <h2 class="post-title">
-          <a href="{{ post.url | relative_url }}">
-            {{ post.title }}
-          </a>
-        </h2>
-        {% include post-meta.html post=post %}
+        <small>{{ post.date | date: "%-d %B %Y" }}</small>
+        <h1 class="mb-4">
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          {% include share-bar.html %}
+        </h1>
 
         {% if post.excerpt %}
         {{ post.excerpt }}
@@ -39,6 +34,7 @@ layout: default
         {% endif %}
         {% endif %}
       </article>
+      <hr>
       {% endfor %}
 
       {% include pagination-older.html %}

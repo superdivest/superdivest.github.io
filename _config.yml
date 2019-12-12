@@ -1,6 +1,7 @@
 ---
 title: Climate Action Darwin
 timezone: Australia/Darwin
+author: Climate Action Darwin
 collections:
   posts:
     title: Posts
@@ -24,23 +25,28 @@ url: https://climateactiondarwin.org.au
 twitter_username: climateactiondarwin
 github_username: climateactiondarwin
 repository: climateactiondarwin/climateactiondarwin.github.io
+
+permalink: /:year/:month/:day/:title.html
+paginate: 5
+paginate_path: /news/page:num/
+
 markdown: kramdown
 kramdown:
   parse_block_html: true
+
 theme: jekyll-theme-minimal
 plugins:
 - jekyll-feed
 - jekyll-redirect-from
 - jekyll-seo-tag
 - jekyll-paginator
+- jekyll-postfiles
 sass:
   sass_dir: assets/css
+
 mailchimp-list: http://eepurl.com/bimoPf
 mailchimp-form: https://ecnt.us2.list-manage.com/subscribe/post
 mailchimp-signup: https://ecnt.us2.list-manage.com/subscribe/post
 simple-form: https://simple-form.com/climateactiondarwin@gmail.com
 cad-facebook: https://www.facebook.com/climateactiondarwin
 cad-homepage: https://climateactiondarwin.org.au
-
-paginate: 5
-paginate_path: /news/page:num/
