@@ -15,5 +15,5 @@ galleryImages.detach().each(function (i, img) {
 });
 
 $(document).ready(function() {
-    lightbox.option({ alwaysShowNavOnTouchDevices: true });
+    lightbox.init({ alwaysShowNavOnTouchDevices: true });
 });
