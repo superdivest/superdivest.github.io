@@ -5,7 +5,9 @@ date: 2019-12-12 22:29:00 +09:30
 
 The Siteleaf content management system (CMS) is best accessed via a GitHub third party login because site data is stored in a GitHub repository. The steps below explain the process to log in.
 
-First, visit [SiteLeaf](https://manage.siteleaf.com) and choose the "Log in" option. 
+First, visit [SiteLeaf](https://manage.siteleaf.com) and choose the "Log in" option.
+
+
 ![Log in](/uploads/siteleaf-login.png)
 
 Second, choose the "Log in with GitHub" option.
