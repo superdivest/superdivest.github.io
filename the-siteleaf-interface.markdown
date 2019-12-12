@@ -4,9 +4,9 @@ date: 2019-12-12 22:42:00 +09:30
 layout: content-page
 ---
 
-[Back to the site user manual](/administration/)
+###### [Back to the site user manual](/administration/)
 
-[Previous: Logging in](/logging-in/)
+###### [Previous: Logging in](/logging-in/)
 
 On the Siteleaf site home page, you will see all the site resources with which you'll be interacting: Pages, Posts, and Uploads.
 
@@ -24,4 +24,4 @@ Pages and Posts go through an *Edit - Save - Publish* workflow in which first co
 
 Editing is a pretty low risk activity—because of GitHub's functionality, it will always be possible to wind back to an older version of the site if a mistake is made.
 
-[Next: Creating a Page](/creating-a-page/)
+###### [Next: Creating a Page](/creating-a-page/)
