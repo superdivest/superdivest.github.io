@@ -1,11 +1,16 @@
+{% if include.source %}
+{% assign source = include.source %}
+{% else %}
+{% assign source = page %}
+{% endif %}
 <span class="cad-share-bar">
-  <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}"
+  <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ source.url }}"
      onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
      title="Share on Facebook">
     <i class="fab fa-facebook cad-facebook-icon">facebook</i>
   </a>
 
-  <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ site.baseurl }}{{ page.url }}"
+  <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ site.baseurl }}{{ source.url }}"
      onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
      title="Share on Twitter">
     <i class="fab fa-twitter cad-twitter-icon">twitter</i>
