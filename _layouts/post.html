@@ -5,14 +5,11 @@ layout: default
 <div class="container cad-content-container">
   <div class="row">
     <div class="col-xl-8 offset-xl-2 py-5">
-      <small>{{ page.date | date: "%-d %B %Y" }}</small>
+      <small>{{ page.date | date: "%-d %B %Y" }} • {{ page.author | default: site.author }}</small>
       <h1 class="mb-4">
         {{page.title}}
         {% include share-bar.html %}
       </h1>
-      <div class="cad-byline-wrapper">
-        <p class="mr-auto">by {{ page.author | default: site.author }}</p>
-      </div>
       <p class="lead">{{page.lead}}</p>
       {{content}}
 

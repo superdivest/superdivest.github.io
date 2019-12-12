@@ -8,14 +8,11 @@ layout: default
       {% include pagination-newer.html %}
       {% for post in paginator.posts %}
       <article class="post-body">
-        <small>{{ post.date | date: "%-d %B %Y" }}</small>
+        <small>{{ post.date | date: "%-d %B %Y" }} • {{ post.author | default: site.author }}</small>
         <h1 class="mb-4">
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
           {% include share-bar.html %}
         </h1>
-        <div class="cad-byline-wrapper">
-          <p class="mr-auto">by {{ page.author | default: site.author }}</p>
-        </div>
         {% if post.excerpt %}
         {{ post.excerpt }}
         {% else %}
