@@ -40,4 +40,8 @@ The next time the site is published, your Page changes will become available onl
 
 Note: after the publication process finishes, there is a slight delay on page publication, which will usually be less than a minute. Try refreshing your browser if the content doesn't seem to be updating.
 
+#### Creating "lead" text for a Page using Metadata
+
+Some Pages on the site have "lead" text which appears in a larger paragraph at the top of the page—see [About](/about/) for an example. To add "lead" text, create a new **Metadata** item with name "lead" and enter the brief lead message with which you want to open the Page content.
+
 ###### [Next: creating a Post](/creating-a-post/)
