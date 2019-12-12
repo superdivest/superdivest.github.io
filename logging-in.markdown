@@ -6,19 +6,21 @@ layout: content-page
 
 ###### [Back to the site user manual](/administration/)
 
-The Siteleaf content management system (CMS) is best accessed via a GitHub third party login because site data is stored in a GitHub repository. The steps below explain the process to log in.
+The Climate Action Darwin site uses Siteleaf to manage content, backed by GitHub as a storage and version control platform.
 
-First, visit [SiteLeaf](https://manage.siteleaf.com) and choose the "Log in" option.
+The steps below explain the process to log in.
+
+First, visit [Siteleaf](https://manage.siteleaf.com) and choose the "Log in" option.
 
 ![Log in](/uploads/siteleaf-login.png)
 
 #### Logging in with info@climateactiondarwin.org.au
 
-The **info@climateactiondarwin.org.au** account has been created as an Admin user of the site. The password to use will be communicated elsewhere—if in doubt, talk to the person who invited you to administer the site.
+The **info@climateactiondarwin.org.au** account has been created as an Admin user of the site, with control over site content. The password to use will be communicated elsewhere—if in doubt, talk to the person who invited you to administer the site.
 
 #### Logging in with GitHub
 
-The site synchronises with GitHub using a GitHub account. You'll need the **climateactiondarwin** credentials for GitHub to log in this way, but if you have them will also be able to administer the site contents on GitHub.
+The site synchronises with GitHub using a GitHub account. You'll need the **climateactiondarwin** credentials for GitHub to log in this way, but if you have them will also be able to administer the site contents on GitHub. Ask the site's technical contact for details if you need this password.
 
 Choose the "Log in with GitHub" option on the Siteleaf login screen to log in this way.
 ![login-on-github.png](/uploads/login-on-github.png)
