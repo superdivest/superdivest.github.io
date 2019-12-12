@@ -1,10 +1,11 @@
 ---
 title: Morrison carves up environment and energy
-date: 2019-12-06 12:00 +09:30
+date: 2019-12-06 12:00:00 +09:30
 categories:
 - news
 layout: post
 ---
+
 If you thought our Australian government wasn't doing a good job with climate change, well they've just made it harder [by splitting the climate change branch over two mega departments](https://reneweconomy.com.au/morrison-carves-up-environment-and-energy-praises-taylor-for-waving-big-stick-76969/): time to double-down on letting them know we need massive climate action now.
 
 There are dramatic changes to the federal bureaucracy, with the Department of the Environment and Energy to be abolished, and energy and climate change branches set to be absorbed by the resources department.
