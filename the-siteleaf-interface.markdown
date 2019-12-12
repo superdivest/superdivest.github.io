@@ -6,6 +6,7 @@ layout: content-page
 
 
 [Back to the User Guide contents page](/administration/)
+
 [Previous: Logging in](/logging-in/)
 
 On the Siteleaf site home page, you will see all the site resources with which you'll be interacting: Pages, Posts, and Uploads.
