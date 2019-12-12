@@ -11,7 +11,7 @@ layout: default
         <small>{{ post.date | date: "%-d %B %Y" }} • {{ post.author | default: site.author }}</small>
         <h1 class="mb-4">
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          {% include share-bar.html %}
+          {% include share-bar.html source=post %}
         </h1>
         {% if post.excerpt %}
         {{ post.excerpt }}
