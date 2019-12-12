@@ -4,8 +4,8 @@ date: 2019-12-12 23:17:00 +09:30
 layout: content-page
 ---
 
-[Back to the site user manual](/administration/)
+###### [Back to the site user manual](/administration/)
 
-[Previous: uploading Images and other items](/uploading-images/)
+###### [Previous: uploading Images and other items](/uploading-images/)
 
-[Next: editing Pages and Posts](/editing-pages-and-posts/)
+###### [Next: editing Pages and Posts](/editing-pages-and-posts/)
