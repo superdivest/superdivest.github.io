@@ -5,6 +5,7 @@ layout: content-page
 ---
 
 [Back to the site user manual](/administration/)
+
 [Previous: creating a Post](/creating-a-post/)
 
 [Next: creating a Gallery Post](/creating-a-gallery-post/)
