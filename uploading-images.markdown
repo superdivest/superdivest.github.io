@@ -20,6 +20,20 @@ Select the **Uploads** button from the left hand of the Siteleaf interface.
 
 ![uploads-button.png](/uploads/uploads-button.png)
 
+The Uploads interface appears, allowing you to search for previous uploads by name, or upload a group of files. Choose **Upload files** to select new files for the site.
 
+![uploads-screen.png](/uploads/uploads-screen.png)
+
+Your files will be uploaded. Tools in the **Page Editor** can now be used to insert these files into your Pages and Posts.
+
+#### Inserting an Image in a Page or Post
+
+Go to the **Page Editor** as described in [Creating a Page](/creating-a-page/).
+
+The **Insert file** tool is a small photo icon at the top of the editor.
+
+![insert-file.png](/uploads/insert-file.png)
+
+Note that from this tool you can either upload an Image directly, or select from your **Existing Uploads**.
 
 ###### [Next: creating a Gallery Post](/creating-a-gallery-post/)
