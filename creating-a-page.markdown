@@ -22,9 +22,13 @@ Go to the [Siteleaf main interface](/the-siteleaf-interface/) and select the **P
 
 The Page Editor allows you to view Page content in a format called [Markdown](https://en.wikipedia.org/wiki/Markdown). Markdown is a simple, text-like shorthand for writing HTML that it will be useful to learn if you are doing a significant amount of content administration.
 
+![the-page-editor.png](/uploads/the-page-editor.png)
+
 The Page Editor also allows you to edit **Page Metadata** and change important options such as **Page Layout**.
 
 Finally, the Page Editor has a "what you see is what you get" mode which can be accessed using the *Visual (beta)* option at the top right of the editor. It's useful to flip between the Markdown and Visual modes to see how you're going when you're editing—you'll be able to see images and other media, for example.
+
+[wysiwyg-view.PNG](/uploads/wysiwyg-view.PNG)
 
 #### Setting the "content-page" Layout
 
@@ -36,6 +40,10 @@ Once you have made changes to the Page, the Save button is enabled. Ensure the *
 
 #### Publishing your Page
 
+Click **Publish changes** to publish the whole site‚ including the Page you've just saved.
+
+[publish-button.PNG](/uploads/publish-button.PNG)
+
 The next time the site is published, your Page changes will become available online. It's a good idea to double check that everything turned out the way you wanted before moving on.
 
 Note: after the publication process finishes, there is a slight delay on page publication, which will usually be less than a minute. Try refreshing your browser if the content doesn't seem to be updating.
@@ -43,5 +51,7 @@ Note: after the publication process finishes, there is a slight delay on page pu
 #### Creating "lead" text for a Page using Metadata
 
 Some Pages on the site have "lead" text which appears in a larger paragraph at the top of the page—see [About](/about/) for an example. To add "lead" text, create a new **Metadata** item with name "lead" and enter the brief lead message with which you want to open the Page content.
+
+![lead-text.png](/uploads/lead-text.png)
 
 ###### [Next: creating a Post](/creating-a-post/)
