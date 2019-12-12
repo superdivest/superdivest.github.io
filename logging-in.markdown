@@ -14,9 +14,11 @@ First, visit [Siteleaf](https://manage.siteleaf.com) and choose the "Log in" opt
 
 ![Log in](/uploads/siteleaf-login.png)
 
-#### Logging in with info@climateactiondarwin.org.au
+#### Logging in
 
 The **info@climateactiondarwin.org.au** account has been created as an Admin user of the site, with control over site content. The password to use will be communicated elsewhere—if in doubt, talk to the person who invited you to administer the site.
+
+![login.png](/uploads/login.png)
 
 #### Logging in with GitHub
 
