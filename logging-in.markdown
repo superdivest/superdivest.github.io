@@ -18,6 +18,8 @@ First, visit [Siteleaf](https://manage.siteleaf.com) and choose the "Log in" opt
 
 The **info@climateactiondarwin.org.au** account has been created as an Admin user of the site, with control over site content. The password to use will be communicated elsewhere—if in doubt, talk to the person who invited you to administer the site.
 
+
+
 #### Logging in with GitHub
 
 The site synchronises with GitHub using a GitHub account. You'll need the **climateactiondarwin** credentials for GitHub to log in this way, but if you have them will also be able to administer the site contents on GitHub. Ask the site's technical contact for details if you need this password.
