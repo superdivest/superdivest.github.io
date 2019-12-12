@@ -17,5 +17,5 @@ Second, choose the "Log in with GitHub" option.
 On the GitHub login screen, enter the Climate Action Darwin GitHub credentials.
 ![the-github-login-screen.png](/uploads/the-github-login-screen.png)
 
-After logging in successfully, you will be returned to Siteleaf. Select the "Climate Action Darwin" site from the list of sites.
+After logging in successfully, you will be returned to Siteleaf. Select the "Climate Action Darwin" site from the list of sites. This takes you to the [main Siteleaf administration interface](/the-siteleaf-interface/).
 ![select-the-cad-site.png](/uploads/select-the-cad-site.png)
