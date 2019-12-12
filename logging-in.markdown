@@ -1,6 +1,7 @@
 ---
 title: Logging in
 date: 2019-12-12 22:29:00 +09:30
+layout: content-page
 ---
 
 The Siteleaf content management system (CMS) is best accessed via a GitHub third party login because site data is stored in a GitHub repository. The steps below explain the process to log in.
