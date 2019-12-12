@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<div class="container cad-content-container">
+  <div class="row">
+    <div class="col-xl-8 offset-xl-2 py-5 cad-gallery">
+      <small>{{ page.date | date: "%-d %B %Y" }}</small>
+      <h1 class="mb-4">
+        {{page.title}}
+        {% include share-bar.html %}
+      </h1>
+      <div class="cad-byline-wrapper">
+        <p class="mr-auto">by {{ page.author | default: site.author }}</p>
+      </div>
+      <p class="lead">{{page.lead}}</p>
+
+      <!--img tags within the cad-gallery area will be tiled-->
+      <div class="cad-gallery">
+        {{content}}
+      </div>
+
+      {% if page.tags and page.tags.size > 0 %}
+      <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+      {% endif %}
+    </div>
+  </div>
+</div>
