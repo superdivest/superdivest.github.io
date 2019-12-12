@@ -27,4 +27,12 @@ To specify a different author for a Post, add a metadata field with the field na
 
 ![author-metadata.png](/uploads/author-metadata.png)
 
+#### Publishing
+
+After you've completed and saved your Post, don't forget to use the **Publish changes** button to synchronise it with the publicly available site. This will cause the [News](/news/) index and the Post page itself to appear. The **permalink** to the Post will be based on the Post date and title.
+
+### The Post summary
+
+On the [News](/news/) index page, an excerpt from your new Post will appear with a *More …* prompt allowing the reader to click through to the full Post. Your Post will also appear in the RSS reader of any subscriber to the site's RSS feed.
+
 ###### [Next: uploading Images and other items](/uploading-images/)
