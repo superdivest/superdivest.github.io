@@ -5,6 +5,7 @@ layout: content-page
 ---
 
 [Back to the site user manual](/administration/)
+
 [Previous: uploading Images and other items](/uploading-images/)
 
 [Next: editing Pages and Posts](/editing-pages-and-posts/)
