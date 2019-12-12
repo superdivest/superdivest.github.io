@@ -5,4 +5,5 @@ layout: content-page
 ---
 
 [Back to the site user manual](/administration/)
+
 [Previous: editing Pages and Posts](/editing-pages-and-posts/)
