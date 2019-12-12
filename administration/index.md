@@ -1,5 +1,5 @@
 ---
-title: Administration
+title: Site user manual
 date: 2019-12-12 22:15:00 +09:30
 layout: content-page
 ---
