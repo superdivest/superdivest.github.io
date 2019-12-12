@@ -4,5 +4,9 @@ div.cad-gallery {
   column-count: 2;
   -webkit-column-width: 50%;
   -moz-column-width: 50%;
-  column-width: 50%; 
+  column-width: 50%;
+  
+  img {
+    margin-bottom: $spacer;
+  }
 }
