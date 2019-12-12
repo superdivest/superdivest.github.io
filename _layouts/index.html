@@ -13,7 +13,9 @@ layout: default
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
           {% include share-bar.html %}
         </h1>
-
+        <div class="cad-byline-wrapper">
+          <p class="mr-auto">by {{ page.author | default: site.author }}</p>
+        </div>
         {% if post.excerpt %}
         {{ post.excerpt }}
         {% else %}
