@@ -4,6 +4,10 @@ date: 2019-12-12 22:42:00 +09:30
 layout: content-page
 ---
 
+
+[Back to the User Guide contents page](/administration/)
+[Previous: Logging in](/logging-in/)
+
 On the Siteleaf site home page, you will see all the site resources with which you'll be interacting: Pages, Posts, and Uploads.
 
 ![siteleaf-main-page.PNG](/uploads/siteleaf-main-page.PNG)
@@ -19,3 +23,5 @@ Once created, Pages and Posts can be edited, and Uploads can be removed—do thi
 Pages and Posts go through an *Edit - Save - Publish* workflow in which first content is changed, then the changes are saved, and finally the changes are "synced" to GitHub where they become a versioned part of the Climate Action Darwin site.
 
 Editing is a pretty low risk activity—because of GitHub's functionality, it will always be possible to wind back to an older version of the site if a mistake is made.
+
+[Next: Creating a Page](/creating-a-page/)
