@@ -54,6 +54,8 @@ A Page **image** will appear when the Page (or Post) is shared on social media, 
 
 ![feature-image.png](/uploads/feature-image.png)
 
+If no image is specified, the Climate Action Darwin site logo will be used.
+
 #### Creating "lead" text for a Page using Metadata
 
 Some Pages on the site have "lead" text which appears in a larger paragraph at the top of the page—see [About](/about/) for an example. To add "lead" text, create a new **Metadata** item with name "lead" and enter the brief lead message with which you want to open the Page content.
