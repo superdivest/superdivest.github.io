@@ -1,6 +1,7 @@
 ---
 title: Policy information
 date: 2019-12-15 10:50:00 +09:30
+layout: content-page
 ---
 
 ## Policy
