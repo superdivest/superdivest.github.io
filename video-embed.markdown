@@ -1,7 +1,6 @@
 ---
-title: Video embed
+title: Example of embedding a video
 date: 2019-12-15 11:06:00 +09:30
-published: false
 layout: content-page
 ---
 
