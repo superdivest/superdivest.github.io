@@ -1,6 +1,7 @@
 ---
 title: Video embed
 date: 2019-12-15 11:06:00 +09:30
+layout: content-page
 ---
 
 ### Testing video embed
