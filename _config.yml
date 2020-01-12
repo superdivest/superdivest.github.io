@@ -1,6 +1,6 @@
 ---
-title: Climate Action Darwin
-timezone: Australia/Darwin
+title: Super Divest
+timezone: Australia/Sydney
 collections:
   posts:
     title: Posts
@@ -14,17 +14,16 @@ defaults:
     type: posts
   values:
     is_post: true
-author: Climate Action Darwin
-description: Climate Action Darwin is a citizen action group based in Darwin Australia
-  and focused on reducing the impacts of catastrophic human-made global warming.
+author: Super Divest
+description: Institutional super divestment is thousands of times more effective than shopping for "ethical" funds. 
 facebook:
-  publisher: https://www.facebook.com/climateactiondarwin/
-logo: "/assets/img/climate-action-darwin-logo.jpg"
-email: climateactiondarwin@gmail.com
-url: https://climateactiondarwin.org.au
-twitter_username: climateactiondarwin
-github_username: climateactiondarwin
-repository: climateactiondarwin/climateactiondarwin.github.io
+  publisher:
+logo: 
+email: superdivest@gmail.com
+url: https://github.com/superdivest/superdivest.github.io
+twitter_username: 
+github_username: superdivest
+repository: superdivest/superdivest.github.io
 permalink: "/:title/"
 paginate: 5
 paginate_path: "/news/page:num/"
@@ -39,9 +38,4 @@ plugins:
 - jekyll-paginator
 sass:
   sass_dir: assets/css
-mailchimp-list: http://eepurl.com/bimoPf
-mailchimp-form: https://ecnt.us2.list-manage.com/subscribe/post
-mailchimp-signup: https://ecnt.us2.list-manage.com/subscribe/post
-simple-form: https://simple-form.com/info@climateactiondarwin.org.au
-cad-facebook: https://www.facebook.com/climateactiondarwin
-cad-homepage: https://climateactiondarwin.org.au
+simple-form: https://simple-form.com/superdivest@gmail.com
