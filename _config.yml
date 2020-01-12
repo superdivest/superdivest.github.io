@@ -15,9 +15,10 @@ defaults:
   values:
     is_post: true
 author: Super Divest
-description: Institutional super divestment is thousands of times more effective than shopping for "ethical" funds. 
+description: Institutional super divestment is thousands of times more effective than
+  shopping for "ethical" funds.
 facebook:
-  publisher:
+  publisher: 
 logo: 
 email: superdivest@gmail.com
 url: https://github.com/superdivest/superdivest.github.io
