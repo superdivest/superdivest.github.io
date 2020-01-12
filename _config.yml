@@ -2,9 +2,9 @@
 title: Super Divest
 timezone: Australia/Sydney
 collections:
-  posts:
-    title: Posts
-    output: true
+  # posts:
+  #   title: Posts
+  #   output: true
   uploads:
     title: Uploads
     output: true
@@ -27,7 +27,7 @@ github_username: superdivest
 repository: superdivest/superdivest.github.io
 permalink: "/:title/"
 paginate: 5
-paginate_path: "/news/page:num/"
+paginate_path: "/page:num/"
 markdown: kramdown
 kramdown:
   parse_block_html: true
