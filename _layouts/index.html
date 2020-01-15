@@ -2,11 +2,10 @@
 layout: default
 ---
 
-<div class="container cad-content-container">
+<div class="container usd-content-container">
   <div class="row">
     <div class="col-xl-8 offset-xl-2 py-5">
-      {% include pagination-newer.html %}
-      {% for post in paginator.posts %}
+      {% for post in site.posts %}
       <article class="post-body">
         <small>{{ post.date | date: "%-d %B %Y" }} • {{ post.author | default: site.author }}</small>
         <h1 class="mb-4">
@@ -35,8 +34,6 @@ layout: default
       </article>
       <hr>
       {% endfor %}
-
-      {% include pagination-older.html %}
     </div>
   </div>
 </div>

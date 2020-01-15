@@ -2,9 +2,9 @@
 title: Super Divest
 timezone: Australia/Sydney
 collections:
-  # posts:
-  #   title: Posts
-  #   output: true
+  posts:
+    title: posts
+    output: true
   uploads:
     title: Uploads
     output: true
@@ -26,8 +26,6 @@ twitter_username:
 github_username: superdivest
 repository: superdivest/superdivest.github.io
 permalink: "/:title/"
-paginate: 5
-paginate_path: "/page:num/"
 markdown: kramdown
 kramdown:
   parse_block_html: true
@@ -36,7 +34,6 @@ plugins:
 - jekyll-feed
 - jekyll-redirect-from
 - jekyll-seo-tag
-- jekyll-paginator
 sass:
   sass_dir: assets/css
 simple-form: https://simple-form.com/superdivest@gmail.com

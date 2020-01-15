@@ -1,5 +1,4 @@
 ---
 title: Super Divest
-layout: empty
+layout: index
 ---
-

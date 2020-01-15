@@ -1,28 +1,27 @@
-
-nav.cad-navbar {
-  background-color: $cad-mid-blue;
+nav.usd-navbar {
+  background-color: $usd-orange;
 }
 
-nav.cad-navbar .navbar-brand {
-  background-color: white;
-  margin-top: 20px;
-  margin-left: -20px;
-  padding: 15px;
-  font-size: x-large;
-  font-weight: bold;
-  border-radius: 100px;
-  border: 1px solid #3d69a7;
-  z-index: 1000;
-  position: fixed;
-}
+// nav.usd-navbar .navbar-brand {
+//   // background-color: white;
+//   margin-top: 20px;
+//   margin-left: -20px;
+//   padding: 15px;
+//   font-size: x-large;
+//   font-weight: bold;
+//   border-radius: 100px;
+//   border: 1px solid #3d69a7;
+//   z-index: 1000;
+//   position: fixed;
+// }
 
-nav.cad-navbar .navbar-brand.cad-nav-menu-open {
-  position: inherit;
-  margin-top: 6px;
-}
+// nav.usd-navbar .navbar-brand.usd-nav-menu-open {
+//   position: inherit;
+//   margin-top: 6px;
+// }
 
-nav.cad-navbar .nav-item .nav-link {
-  color: white;
-}
+// nav.usd-navbar .nav-item .nav-link {
+//   color: white;
+// }
 
 

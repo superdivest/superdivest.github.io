@@ -1,0 +1,11 @@
+---
+title: 2
+date: 2020-01-15 12:54:02 +09:30
+categories:
+- fact
+layout: post
+---
+
+UniSuper have a very poor record when it comes to calls to divest from harmful industries and fully disclosing their position to members. 
+
+UniSuper [voted against all 11](https://www.marketforces.org.au/superfunds/unisuper-balanced/) climate-related shareholder resolutions disclosed in 2017 and 2018. It also [undermined divestment](https://xborderoperationalmatters.wordpress.com/2015/10/02/unisuper-nteu-update/) from companies involved in the detention of asylum-seekers. [UniSuper are an unreliable source](https://xborderoperationalmatters.wordpress.com/2014/08/24/unisuper-divestment-brochure-transfield-asylumseekers-nteu/) of information when confronted with demands by its members to divest, and the academic union have [failed to hold UniSuper accountable](https://xborderoperationalmatters.wordpress.com/2015/10/02/unisuper-nteu-update/).

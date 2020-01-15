@@ -1,16 +1,16 @@
-div.cad-dropdown-menu {
+div.usd-dropdown-menu {
     color: white;
-    background-color: $cad-mid-blue;
+    background-color: $usd-orange;
     border: 1px solid white;
     border-radius: 0px;
 
     a.dropdown-item {
         color: white;
-        background-color: $cad-mid-blue;
+        background-color: $usd-orange;
     }
 
     a.dropdown-item:hover {
-        color: $cad-green;
+        color: $usd-light-grey;
         background-color: white;
     }
 }

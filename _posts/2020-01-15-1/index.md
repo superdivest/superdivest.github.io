@@ -1,0 +1,11 @@
+---
+title: 1
+date: 2020-01-15 12:54:01 +09:30
+categories:
+- fact
+layout: post
+---
+
+UniSuper has some [450,000 members](https://www.unisuper.com.au/your-super/introduction-to-unisuper), is one of Australia’s largest super funds, and manages around [$80 billion](https://www.unisuper.com.au/about-us/who-we-are) in retirement savings.
+
+UniSuper’s divestment from fossil-fuels would therefore represent the effective removal of some $80 billion from the pool of investments available to the fossil-fuel industry. This is an enormous pool in potential loans to companies that make money by destroying the environment.  
