@@ -4,10 +4,7 @@ timezone: Australia/Sydney
 collections:
   posts:
     title: posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
+    output: false
 defaults:
 - scope:
     path: ''
@@ -15,8 +12,7 @@ defaults:
   values:
     is_post: true
 author: Super Divest
-description: Institutional super divestment is thousands of times more effective than
-  shopping for "ethical" funds.
+description:
 facebook:
   publisher: 
 logo: /assets/img/flaming-clam-smoke.svg 

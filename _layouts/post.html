@@ -2,20 +2,14 @@
 layout: default
 ---
 
-<div class="container cad-content-container">
-  <div class="row">
-    <div class="col-xl-8 offset-xl-2 py-5">
-      <small>{{ page.date | date: "%-d %B %Y" }} • {{ page.author | default: site.author }}</small>
-      <h1 class="mb-4">
-        {{page.title}}
-        {% include share-bar.html %}
-      </h1>
-      <p class="lead">{{page.lead}}</p>
-      {{content}}
-
-      {% if page.tags and page.tags.size > 0 %}
-      <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
-      {% endif %}
-    </div>
+<div class="row">
+  <div class="py-2 px-3">
+    <article class="usd-post-body">
+      <div class="usd-fact-badge">
+        <span class="usd-fact-badge-number">{{ title }}</span>
+      </div>
+      {{ content }}
+    </article>
+    <hr>
   </div>
 </div>
