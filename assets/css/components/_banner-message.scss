@@ -1,0 +1,41 @@
+.usd-banner-message {
+  min-height: 250px;
+  margin-bottom: 1rem;
+
+  img.usd-banner-image {
+    float: right;
+    width: 30%;
+  }
+
+  p, ul {
+    text-align: center;
+    font-family: $font-family-serif;
+    font-size: 48px;
+    line-height: 1.2em;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  strong {
+    color: $usd-orange;
+    font-weight: bolder;
+  }
+}
+
+.usd-download-overlay {
+  color: black;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+
+.usd-download:hover {
+  img {
+    opacity: 50%;
+    border: 5px solid $usd-orange;
+  }
+  
+  .usd-download-overlay {
+    color: $usd-grey;
+  }
+}

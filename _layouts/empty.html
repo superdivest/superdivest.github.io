@@ -3,8 +3,9 @@
   {% include head.html %}
   <body class="usd bg-light">
     {{ content }}
-    {% include footer.html %}
+    {% comment %}
     {% include cookie-consent.html %}
     {% include deferred-scripts.html %}
+    {% endcomment %}
   </body>
 </html>

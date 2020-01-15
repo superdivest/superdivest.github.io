@@ -2,38 +2,16 @@
 layout: default
 ---
 
-<div class="container usd-content-container">
+  {% for post in site.posts %}
   <div class="row">
-    <div class="col-xl-8 offset-xl-2 py-5">
-      {% for post in site.posts %}
-      <article class="post-body">
-        <small>{{ post.date | date: "%-d %B %Y" }} • {{ post.author | default: site.author }}</small>
-        <h1 class="mb-4">
-          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          {% include share-bar.html source=post %}
-        </h1>
-        {% if post.excerpt %}
-        {{ post.excerpt }}
-        {% else %}
+    <div class="py-2 px-3">
+      <article class="usd-post-body">
+        <div class="usd-fact-badge">
+          <span class="usd-fact-badge-number">{{ post.title }}</span>
+        </div>
         {{ post.content }}
-        {% endif %}
-
-        {% if post.excerpt %}
-        {% comment %}Excerpt may be equal to content. Check.{% endcomment %}
-        {% capture content_words %}
-        {{ post.content | number_of_words }}
-        {% endcapture %}
-        {% capture excerpt_words %}
-        {{ post.excerpt | number_of_words }}
-        {% endcapture %}
-
-        {% if content_words != excerpt_words %}
-        <a href="{{ post.url | relative_url }}">More &hellip;</a>
-        {% endif %}
-        {% endif %}
       </article>
       <hr>
-      {% endfor %}
     </div>
   </div>
-</div>
+  {% endfor %}

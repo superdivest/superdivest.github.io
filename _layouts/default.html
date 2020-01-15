@@ -1,6 +1,79 @@
 ---
 layout: empty
 ---
-
+{% comment %}
 {% include nav.html %}
-{{ content }}
+{% endcomment %}
+<div class="container">
+    <div class="usd-content-container shadow col-xl-8 offset-xl-2 pb-3">
+        <div class="usd-banner-message jumbotron py-2">
+            <img class="usd-banner-image" src="/assets/img/flaming-clam-smoke.svg">
+            <p><strong>{{ site.posts | size }}</strong> 
+                things you need to know about UniSuper investments in fossil-fuels.</p>
+        </div>
+        {{ content }}
+        <div class="usd-banner-message jumbotron py-2">
+            <img class="usd-banner-image" src="/assets/img/flaming-clam.svg">
+            <p>Demand full divestment and disclosure.</p>
+        </div>
+        <div class="usd-banner-message jumbotron py-2">
+            <p>Download and share these graphics on social.</p>
+            <div class="row">
+                <div class="col-lg-6 px-1 mb-3 usd-download">
+                    <img src="/assets/img/divest-01.png">
+                    <a class="usd-download-overlay" 
+                        href="/assets/img/divest-01.png"
+                        title="Download graphic"
+                        download>
+                        <i class="fa fa-download fa-2x"></i>
+                    </a>
+                </div>
+                <div class="col-lg-6 px-1 mb-3 usd-download">
+                    <img src="/assets/img/divest-02.png">
+                    <a class="usd-download-overlay" 
+                        href="/assets/img/divest-02.png"
+                        title="Download graphic"
+                        download>
+                        <i class="fa fa-download fa-2x"></i>
+                    </a>
+                </div>
+                <div class="col-lg-6 px-1 mb-3 usd-download">
+                    <img src="/assets/img/divest-03.png">
+                    <a class="usd-download-overlay" 
+                        href="/assets/img/divest-03.png"
+                        title="Download graphic"
+                        download>
+                        <i class="fa fa-download fa-2x"></i>
+                    </a>
+                </div>
+                <div class="col-lg-6 px-1 mb-3 usd-download">
+                    <img src="/assets/img/divest-action.png">
+                    <a class="usd-download-overlay" 
+                        href="/assets/img/divest-action.png"
+                        title="Download graphic"
+                        download>
+                        <i class="fa fa-download fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="usd-banner-message jumbotron py-2">
+            <p>Share this site on social.</p>
+            <ul class="list-inline">
+                <li class="list-inline-item">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}"
+                        onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+                        title="Share on Facebook">
+                        <i class="fab fa-facebook fa-3x"></i>
+                    </a>
+
+                    <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ site.baseurl }}"
+                        onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+                        title="Share on Twitter">
+                        <i class="fab fa-twitter fa-3x"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

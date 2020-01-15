@@ -4,14 +4,16 @@
 @import 'bootstrap/bootstrap';
 @import 'stolen-theme';
 
-.cad {
+.usd {
   @import 'utilities/usd-colors';
+
+  @import 'components/banner-message';
 
   @import 'components/call-to-action';
   @import 'components/contact-form';
   @import 'components/content-container';
   @import 'components/dropdown';
-  @import 'components/gallery';
+  @import 'components/fact-badge';
   @import 'components/masthead';
   @import 'components/navbar';
   @import 'components/share-bar';

@@ -1,11 +1,11 @@
 ---
 title: 8
-date: 2020-01-15 12:54:08 +09:30
+date: 2020-01-15 12:54:01 +09:30
 categories:
 - fact
 layout: post
 ---
 
-Fiduciary duty is not an argument against complete divestment. 
+**Fiduciary duty is not an argument against complete divestment.**
 
 UniSuper will often counter demands for divestment with arguments that they have a fiduciary duty to seek the highest returns on investments. This is a false economy, particularly when companies involved in fossil-fuel extraction, circulation and consumption have managed to externalise the costs of climate change, displacing those costs on to emergency response agencies, the healthcare system, and others who bear the brunt of climate change. While UniSuper have taken some steps toward a broader, environmental and social definition of costs, they have largely used this as a means of managing the risk of divestment campaigns rather than dealing with the actual and often externalised costs of climate change. 

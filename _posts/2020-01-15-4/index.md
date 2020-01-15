@@ -1,11 +1,11 @@
 ---
 title: 4
-date: 2020-01-15 12:54:04 +09:30
+date: 2020-01-15 12:54:05 +09:30
 categories:
 - fact
 layout: post
 ---
 
-‘Sustainable Options’ are a marketing tool.
+**‘Sustainable Options’ are a marketing tool.**
 
 ‘Sustainable Options’ are a means of avoiding complete divestment from industries with poor reputations. Put simply, they are more of a commercial risk management strategy directed toward altering members’ perceptions of a fund rather than changing the actual impact of its investments. ‘Options’ still contribute to the administration costs of a fund’s other investment bundles, and ‘administration costs’ can be either undisclosed or so vaguely described as to eliminate any meaningful distinction between ‘options.’  Options within a fund do not represent divestment by that fund.
