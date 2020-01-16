@@ -4,7 +4,10 @@
   margin-right: -15px;
   margin-bottom: 1rem;
   background-color: #d3d3d3;
-  
+ 
+  padding-left: 1rem;
+  padding-right: 1rem;
+
   strong {
     color: $usd-orange;
     font-weight: bolder;
@@ -25,15 +28,21 @@
   }
 
   p, ul {
-    text-align: center;
     font-family: $font-family-serif;
     font-size: 28px;
     line-height: 1.2em;
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
+
+  ul {
+    text-align: center;
+  }
   
   @include media-breakpoint-up(sm) {
+    padding-left: 3rem;
+    padding-right: 3rem;
+
     p, ul {
       font-size: 34px;
     } 
