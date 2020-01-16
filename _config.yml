@@ -2,9 +2,12 @@
 title: Super Divest
 timezone: Australia/Sydney
 collections:
+  uploads:
+    title: Uploads
+    output: true
   posts:
     title: posts
-    output: false
+    output: true
 defaults:
 - scope:
     path: ''
@@ -12,10 +15,10 @@ defaults:
   values:
     is_post: true
 author: Super Divest
-description:
+description: 
 facebook:
   publisher: 
-logo: /assets/img/flaming-clam-smoke.svg 
+logo: "/assets/img/flaming-clam-smoke.svg"
 email: superdivest@gmail.com
 url: https://github.com/superdivest/superdivest.github.io
 twitter_username: 
