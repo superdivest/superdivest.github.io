@@ -1,12 +1,9 @@
-// .usd-fact-badge {
-//   width: 100px;
-//   line-height: 100px;
-//   border-radius: 50%;
-//   text-align: center;
-//   border: 5px solid $usd-orange;
-// }
-
 .usd-fact-badge {
+    float:left;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+   
+    font-family: $font-family-serif;
     font-size: 32px;
     font-weight: bold;
 
@@ -14,6 +11,8 @@
     height: 2em;
     box-sizing: initial;
 
+    color: white;
+    background-color: $usd-orange;
     border: 5px solid $usd-orange;
     text-align: center;
     border-radius: 50%;    
@@ -21,19 +20,3 @@
     line-height: 2em;
     box-sizing: content-box;   
 }
-
-div.row:nth-child(odd) .usd-fact-badge {
-  float: left;
-  margin-right: 20px;
-} 
-
-div.row:nth-child(even) .usd-fact-badge {
-  float: right;
-  margin-left: 20px;
-}
-
-
-// .usd-fact-badge-number {
-//   font-size: 32px;
-//   width: 100%;
-// }

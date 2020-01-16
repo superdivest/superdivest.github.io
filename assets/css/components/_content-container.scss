@@ -5,9 +5,12 @@ div.usd-content-container {
   }
 
   .usd-post-body {
-    font-size: large;
-
-    min-height: 100px; // to stop .usd-fact-badge elements "leaking"
+    font-size: 15px;
+    overflow: auto;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
 
     a {
       font-weight: bolder;
@@ -16,14 +19,20 @@ div.usd-content-container {
     strong {
       font-family: $font-family-serif;
       font-size: larger;
-      text-decoration: none;
-      padding-bottom: 2px;
-      border-bottom: 5px solid $usd-orange;
     }
 
     p:not(:first-of-type) {
       margin-top: 1.5rem;
       text-align: justify;
+    }
+
+    @include media-breakpoint-up(md) {
+      padding-left: 3rem;
+      padding-right: 3rem;
+
+      p, ul {
+        font-size: 18px;
+      } 
     }
   }
 }

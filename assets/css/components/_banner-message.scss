@@ -1,6 +1,23 @@
 .usd-banner-message {
-  min-height: 250px;
+  overflow: auto;
+  margin-left: -15px;
+  margin-right: -15px;
   margin-bottom: 1rem;
+  background-color: #d3d3d3;
+  
+  strong {
+    color: $usd-orange;
+    font-weight: bolder;
+  }
+  
+  &--orange {
+    color: white;
+    background-color: $usd-orange;
+
+    strong {
+      color: black !important;
+    }
+  }
 
   img.usd-banner-image {
     float: right;
@@ -10,16 +27,24 @@
   p, ul {
     text-align: center;
     font-family: $font-family-serif;
-    font-size: 48px;
+    font-size: 28px;
     line-height: 1.2em;
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
-
-  strong {
-    color: $usd-orange;
-    font-weight: bolder;
+  
+  @include media-breakpoint-up(sm) {
+    p, ul {
+      font-size: 34px;
+    } 
   }
+
+  @include media-breakpoint-up(md) {
+    p, ul {
+      font-size: 57px;
+    } 
+  }
+
 }
 
 .usd-download-overlay {
@@ -34,7 +59,7 @@
     opacity: 50%;
     border: 5px solid $usd-orange;
   }
-  
+
   .usd-download-overlay {
     color: $usd-grey;
   }

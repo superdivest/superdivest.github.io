@@ -6,14 +6,12 @@ layout: default
 
 {% for post in sortedPosts %}
 <div class="row">
-  <div class="py-2 px-3">
-    <article class="usd-post-body">
-      <div class="usd-fact-badge">
-        <span class="usd-fact-badge-number">{{ post.title }}</span>
-      </div>
-      {{ post.content }}
-    </article>
-    <hr>
-  </div>
+  <article class="usd-post-body">
+    <div class="usd-fact-badge">
+      <span class="usd-fact-badge-number">{{ post.title }}</span>
+    </div>
+    {{ post.content }}
+  </article>
+  <hr>
 </div>
 {% endfor %}
