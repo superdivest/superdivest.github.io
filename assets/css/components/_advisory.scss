@@ -1,0 +1,26 @@
+.usd-advisory {
+  overflow: auto;
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-bottom: 1rem;
+ 
+  padding-left: 1rem;
+  padding-right: 1rem;
+  
+  p, ul {
+    font-family: $font-family-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  @include media-breakpoint-up(sm) {
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+    p {
+      font-size: 18px;
+    } 
+  }
+}
