@@ -19,7 +19,7 @@ description:
 facebook:
   publisher: 
 logo: "/assets/img/flaming-clam-smoke.svg"
-url: https://superdivest.github.io
+url: https://unisuperdivest.info
 permalink: "/:title/"
 markdown: kramdown
 kramdown:
