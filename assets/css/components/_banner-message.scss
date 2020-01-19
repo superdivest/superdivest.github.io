@@ -55,6 +55,12 @@
     } 
   }
 
+  @include media-breakpoint-up(xl) {
+    p, ul {
+      font-size: 76px;
+    }
+  }
+
 }
 
 .usd-download-overlay {
