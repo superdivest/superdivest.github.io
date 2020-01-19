@@ -2,11 +2,11 @@
 title: Super Divest
 timezone: Australia/Sydney
 collections:
+  posts:
+    title: Posts
+    output: true
   uploads:
     title: Uploads
-    output: true
-  posts:
-    title: posts
     output: true
 defaults:
 - scope:
